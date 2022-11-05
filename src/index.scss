@@ -1,0 +1,157 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+.app-name{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-content{
+    background: url(./components/img/background.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:1300px;
+    .left-content{
+        position: relative;
+        .product-glass{
+            background: transparent;
+            position: absolute;
+           left: 125px;
+           top: 140px;
+            img{
+                width: 250px;
+                height: 100px;
+                opacity: 0.5;
+            }
+        }
+        .product-pic-model{
+            img{
+                background: url(./components/img/model.jpg);
+                height: 500px;
+                width: 450px;
+            }
+      
+        }
+        .product-detail{
+            position: absolute;
+            top: 85%;
+            width: 450px;
+            
+            padding-top: 10px;
+           background-color: #EDD6B4;
+           opacity: 0.8;
+           
+        }
+
+    }
+
+    .right-content{
+    
+        .product-pic{
+            img{
+                background: url(./components/img/model.jpg);
+                height: 500px;
+                width: 450px;
+            }
+      
+        }
+    }
+    .product-item{
+        background-color: white;
+  
+        margin-top: 50px;
+     
+        .btn-1{
+            background: url(./components/img/v1.png);
+            background-position: center center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 200px;
+            height: 100px;
+            margin: 5px;
+        }
+        .btn-2{
+            background: url(./components/img/v2.png);
+            background-position: center center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 200px;
+            height: 100px;
+            margin: 5px;
+        }
+        .btn-3{
+            background: url(./components/img/v3.png);
+            background-position: center center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 200px;
+            height: 100px;
+            margin: 5px;
+        }
+        .btn-4{
+            background: url(./components/img/v4.png);
+            background-position: center center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 200px;
+            height: 100px;
+            margin: 5px;
+        }
+        .btn-5{
+            background: url(./components/img/v5.png);
+            background-position: center center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 200px;
+            height: 100px;
+            margin: 5px;
+        }
+        .btn-6{
+            background: url(./components/img/v6.png);
+            background-position: center center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 200px;
+            height: 100px;
+            margin: 5px;
+        }
+        .btn-7{
+            background: url(./components/img/v7.png);
+            background-position: center center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 200px;
+            height: 100px;
+            margin: 5px;
+        }
+        .btn-8{
+            background: url(./components/img/v8.png);
+            background-position: center center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 200px;
+            height: 100px;
+            margin: 5px;
+        }
+        .btn-9{
+            background: url(./components/img/v9.png);
+            background-position: center center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 200px;
+            height: 100px;
+            margin: 5px;
+        }
+      
+    }
+}
